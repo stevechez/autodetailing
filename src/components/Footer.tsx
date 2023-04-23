@@ -100,7 +100,7 @@ const Footer: NextPage = () => {
 
         <div className="pt-4 py-8 mt-4 leading-7 text-center text-gray-600 border-t border-gray-200 px-10">
           <p className="box-border mt-0 text-sm border-0 border-solid">
-            © 2023 Steve Dunn Piano Lessons.
+            © 2023 Mighty Washing Power Washing Service.
             <br /> A subsidiary of Dunn Consulting, LLC. All Rights Reserved.
           </p>
         </div>

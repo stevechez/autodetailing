@@ -4,16 +4,16 @@ import Image from "next/image";
 const LearnMore: NextPage = () => {
   return (
     <>
-      <section className="mt-12">
-        <h1 className="text-5xl font-black text-blue-950 text-center mb-10">
+      <section className="container w-full mx-auto">
+        <h1 className="permanent-marker text-5xl font-bold text-blue-950 text-center my-8 bg-gradient-to-r from-white to-blue-200 rounded-lg py-4 mx-4">
           Learn More
         </h1>
 
         <div className="w-10/12 mx-auto">
           <div className="pl-12 mb-8 md:float-right md:m-4">
             <Image
-              src="/images/about-piano.jpg"
-              alt="About Me"
+              src="/images/learn-more-img.jpg"
+              alt="Learn More Image"
               width={300}
               height={300}
               className="w-96 h-96 object-cover"
@@ -21,60 +21,41 @@ const LearnMore: NextPage = () => {
           </div>
 
           <p className="text-xl mb-4 w-full mr-12">
-            I offer piano lessons primarily for beginner and intermediate
-            students, children and adults.
+            Welcome to the Mighty Washers &quot;Learn More&quot; page, where you
+            can discover all you need to know about our top-notch power washing
+            services. Our team of experienced professionals is dedicated to
+            delivering exceptional results that exceed your expectations, and we
+            are committed to providing the highest quality service with
+            state-of-the-art technology and eco-friendly detergents.
           </p>
 
           <p className="text-xl mb-4 w-full mr-12">
-            It is extremely important for a student and a teacher to feel
-            comfortable and see if they are a great match. Once mutual trust is
-            established we can discuss the length and frequency of the lessons,
-            depending on the students&quot; needs and abilities.
+            Our power washing services are designed to enhance the beauty and
+            cleanliness of your residential or commercial property. We use
+            specialized equipment and techniques to remove dirt, grime, and
+            stains from a variety of surfaces, including siding, roofs,
+            driveways, decks, patios, and more. Our powerful and efficient
+            equipment is gentle enough to protect delicate surfaces while still
+            providing the deep cleaning power you need.
           </p>
 
           <p className="text-xl mb-4 w-full mr-12">
-            We offer onsite learning in Santa Cruz County, as well as,
-            virtually. With the convenience of modern technology, I offer
-            personalized piano lessons through Zoom from the comfort of your own
-            home. My approach is tailored to each individual student&apos;s
-            needs and goals, and my lessons are designed to help you develop
-            your listening skills, natural sense of rhythm, and the ability to
-            improvise.
+            At Mighty Washers, we pride ourselves on our commitment to customer
+            satisfaction. We understand that each property is unique, and we
+            work with you to create a customized power washing plan that meets
+            your specific needs. Our friendly and knowledgeable team is always
+            available to answer any questions you may have and provide expert
+            advice on how to maintain your property in between washes.
           </p>
-          <h2 className="text-2xl font-semibold mt-4 mb-4">
-            Benefits of learning to play piano by ear.
-          </h2>
-          <ul className="list-disc list-inside mb-4 text-xl">
-            <li className="mb-2">
-              <span className="font-bold">Increased musical freedom:</span>{" "}
-              Learning to play by ear can give you more freedom to play what you
-              want, when you want, without needing to rely on sheet music or
-              others to tell you what to play.
-            </li>
-            <li className="mb-2">
-              <span className="font-bold">Improved improvisation skills: </span>{" "}
-              Playing by ear often involves improvisation, which can help you
-              develop your creativity and ability to play in different styles
-              and situations.
-            </li>
-            <li className="mb-2">
-              <span className="font-bold">Enhanced listening skills: </span>{" "}
-              When you learn to play by ear, you learn to listen more closely to
-              the music you&apos;re playing, which can help you develop a deeper
-              appreciation and understanding of it.
-            </li>
-            <li className="mb-2">
-              <span className="font-bold">Greater musical versatility:</span>{" "}
-              Playing by ear can allow you to play a wider variety of music, as
-              you&apos;re not limited to the pieces that are available in sheet
-              music form.
-            </li>
-            <li className="mb-2">
-              <span className="font-bold">Improved memory: </span> Playing by
-              ear requires you to memorize music, which can help improve your
-              memory skills overall.
-            </li>
-          </ul>
+          <p className="text-xl mb-4 w-full mr-12">
+            When you choose Mighty Washers for your power washing needs, you can
+            trust that you are getting the best service in the industry. We use
+            only eco-friendly detergents that are safe for you and the
+            environment, and our technicians are fully trained and insured for
+            your peace of mind. Contact us today to learn more about our power
+            washing services and to schedule your next appointment. Let us help
+            you transform your property and leave it looking like new!
+          </p>
         </div>
       </section>
     </>

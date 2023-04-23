@@ -47,7 +47,7 @@ const Hero: NextPage = () => {
                 href="/contact"
                 className="inline-flex items-center justify-center w-full h-12 px-6 mb-4 font-medium tracking-wide text-white transition duration-200 bg-blue-500 rounded shadow-md sm:w-auto sm:mr-4 sm:mb-0 focus:shadow-outline focus:outline-none hover:bg-blue-700"
               >
-                Contact Me
+                Contact Us
               </Link>
               <Link
                 href="/learn-more"
