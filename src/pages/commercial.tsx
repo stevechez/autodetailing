@@ -6,14 +6,14 @@ const Commercial: NextPage = () => {
       <h1 className="permanent-marker text-5xl font-bold text-blue-950 text-center my-8 bg-gradient-to-r from-white to-blue-200 rounded-lg py-4 mx-4">
         Commercial Power Washing
       </h1>
-      <div className="w-10/12 mx-auto">
-        <div className="pl-12 mb-8 md:float-right md:m-4">
+      <div className="lg:w-10/12 mx-auto">
+        <div className="lg:pl-12 mb-8 md:float-right md:m-4">
           <Image
             src="/images/commercial-img.jpg"
             alt="Commercial Power Washing"
             width={300}
             height={300}
-            className="w-96 h-96 object-cover"
+            className="w-[450px] h-96 object-cover"
           />
         </div>
 
@@ -34,7 +34,7 @@ const Commercial: NextPage = () => {
         </p>
 
         <h4 className="permanent-marker text-xl text-blue-950 text-center mt-12">
-          Contact me today to schedule your next pressure wash!
+          Contact us today to schedule your next pressure wash!
         </h4>
       </div>
     </div>

@@ -7,16 +7,16 @@ const about: NextPage = () => {
         About
       </h1>
       <div className="w-10/12 mx-auto">
-        <div className="pl-12 mb-8 md:float-right md:m-4">
+        <div className="lg:pl-12 mb-8 md:float-right md:m-4">
           <Image
             src="/images/about-us.jpg"
             alt="About Us"
-            width={300}
+            width={350}
             height={300}
-            className="w-96 h-96 object-cover"
+            className="w-[460px] h-96 object-cover"
           />
         </div>
-        <h1 className="text-2xl text-left font-bold text-blue-950 text-center my-6">
+        <h1 className="text-2xl font-bold text-blue-950 text-center my-6">
           Welcome to Mighty Washers
         </h1>
         <p className="text-xl mb-4 w-full mr-12">
@@ -48,7 +48,7 @@ const about: NextPage = () => {
           exceptional service.
         </p>
         <p className="text-xl mb-4 w-full mr-12">
-          Choose PowerJet Wash for all your power washing needs and experience
+          Choose Mighty Washing for all your power washing needs and experience
           the difference of state-of-the-art technology, exceptional service,
           and outstanding results.
         </p>

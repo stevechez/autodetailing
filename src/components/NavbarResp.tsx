@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Dropdown from "./Dropdown";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -20,7 +21,7 @@ export default function NavBar() {
 
           {/* start */}
           <div className="flex justify-center absolute top-0 md:w-1/2 right-0 w-full lg:w-3/12 bg-gradient-to-r from-white to-blue-300 p-2 text-right">
-            <div className="flex-1 md:mr-12 md:whitespace-nowrap font-semibold text-gray-950">
+            <div className="flex-1 md:mr-12 md:whitespace-nowrap font-semibold text-gray-950 mr-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -37,7 +38,7 @@ export default function NavBar() {
               </svg>
               650-793-8244
             </div>
-            <div className="flex-1 lg:ml-0 md:whitespace-nowrap font-semibold text-gray-950 pr-6">
+            <div className="flex-1 lg:ml-0 md:whitespace-nowrap font-semibold text-gray-950 lg:pr-6 whitespace-nowrap">
               <Link href="/contact">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -98,9 +99,9 @@ export default function NavBar() {
           </div>
         </div>
 
-        <nav className="flex flex-wrap items-center justify-center text-lg font-bold tracking-tight md:ml-auto relative">
+        <nav className="flex flex-wrap items-center justify-center text-lg font-bold tracking-tight md:ml-auto relative w-full lg:pl-24">
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 md:pr-0 md:pt-12 lg:block lg:pb-0 lg:mt-0 lg:pr-0 lg:pt-20 lg:my-6 lg:ml-12 ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 md:pr-0 md:pt-12 lg:block lg:pb-0 lg:mt-0 lg:pr-0 lg:pt-20 lg:my-6 md:ml-24 lg:ml-12 ${
               navbar ? "block" : "hidden"
             }`}
           >
@@ -113,21 +114,8 @@ export default function NavBar() {
                   About
                 </Link>
               </li>
-              <li className="hover:text-blue-500 hover:underline tracking-wider">
-                <Link
-                  href="/residential"
-                  className="text-gray-600 hover:text-blue-600 whitespace-nowrap"
-                >
-                  Residential Pressure Washing
-                </Link>
-              </li>
-              <li className="hover:text-blue-500 hover:underline tracking-wider">
-                <Link
-                  href="/commercial"
-                  className="text-gray-600 hover:text-blue-600 whitespace-nowrap"
-                >
-                  Commercial Pressure Washing
-                </Link>
+              <li>
+                <Dropdown />
               </li>
 
               <li className="text-gray-600 hover:text-blue-600">
