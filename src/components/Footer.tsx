@@ -11,7 +11,7 @@ const Footer: NextPage = () => {
         <div className="leading-7 text-gray-90 w-full mx-auto">
           <Link href="/" className="mb-4">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-auto-1.png"
               width={150}
               height={150}
               alt="Mighty Washers Power Washing Service"
@@ -19,7 +19,7 @@ const Footer: NextPage = () => {
             />
           </Link>
           <div className="flex justify-center">
-            <ul className="flex flex-row justify-center my-6 space-x-4 w-full">
+            <ul className="flex flex-row justify-center my-0 md:my-6 lg-my-6 space-x-4 w-full">
               <li className="leading-7 text-gray-900 border-0 border-gray-200 md:border-b-0 md:mt-0"></li>
 
               <li className="relative mt-2 leading-7 text-left text-gray-900 border-0 border-gray-200 md:border-b-0 hidden md:block">
@@ -32,18 +32,18 @@ const Footer: NextPage = () => {
               </li>
               <li className="relative mt-2 leading-7 text-left text-gray-900 border-0 border-gray-200 md:border-b-0 hidden md:block">
                 <Link
-                  href="/residential"
+                  href="/auto-detailing"
                   className="box-border items-center block w-full px-4 text-base font-normal leading-normal text-gray-900 no-underline border-solid cursor-pointer hover:text-blue-600 focus-within:text-blue-700 sm:px-0 sm:text-left"
                 >
-                  Residential Pressure Washing
+                  Auto Detailing
                 </Link>
               </li>
               <li className="relative mt-2 leading-7 text-left text-gray-900 border-0 border-gray-200 md:border-b-0 hidden md:block">
                 <Link
-                  href="/commercial"
+                  href="/pricing"
                   className="box-border items-center block w-full px-4 text-base font-normal leading-normal text-gray-900 no-underline border-solid cursor-pointer hover:text-blue-600 focus-within:text-blue-700 sm:px-0 sm:text-left"
                 >
-                  Commercial Pressure Washing
+                  Pricing
                 </Link>
               </li>
               {/* <li className="relative mt-2 leading-7 text-left text-gray-900 border-0 border-gray-200 md:border-b-0 hidden md:block">

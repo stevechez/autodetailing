@@ -12,10 +12,10 @@ export default function NavBar() {
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/" className="mt-12 md:mt-0">
             <Image
-              src="/images/logo.png"
-              width={300}
-              height={72}
-              alt="Mighty Washers Power Washing Service"
+              src="/images/logo-auto-1.png"
+              width={450}
+              height={200}
+              alt="Signature Shine Auto Detailing"
             />
           </Link>
 
@@ -38,7 +38,7 @@ export default function NavBar() {
               </svg>
               650-793-8244
             </div>
-            <div className="flex-1 lg:ml-0 md:whitespace-nowrap font-semibold text-gray-950 lg:pr-6 whitespace-nowrap">
+            <div className="flex-1 lg:ml-5 md:whitespace-nowrap md:mr-36 font-semibold text-gray-950 lg:pr-6 whitespace-nowrap">
               <Link href="/contact">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -114,8 +114,30 @@ export default function NavBar() {
                   About
                 </Link>
               </li>
-              <li>
-                <Dropdown />
+              <li className="text-gray-600 hover:text-blue-600">
+                <Link
+                  href="/auto-detailing"
+                  className="hover:text-blue-500 hover:underline tracking-wider md:whitespace-nowrap"
+                >
+                  Auto Detailing
+                </Link>
+              </li>
+
+              <li className="text-gray-600 hover:text-blue-600">
+                <Link
+                  href="/pricing"
+                  className="hover:text-blue-500 hover:underline tracking-wider"
+                >
+                  Pricing
+                </Link>
+              </li>
+              <li className="text-gray-600 hover:text-blue-600">
+                <Link
+                  href="/service-area"
+                  className="hover:text-blue-500 hover:underline tracking-wider"
+                >
+                  Service Area
+                </Link>
               </li>
 
               <li className="text-gray-600 hover:text-blue-600">

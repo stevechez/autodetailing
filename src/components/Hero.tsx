@@ -5,7 +5,7 @@ import Link from "next/link";
 const Hero: NextPage = () => {
   return (
     <>
-      <section className="relative flex flex-col-reverse w-full px-6 py-16 bg-gray-900 lg:pt-0 lg:flex-col lg:pb-0">
+      <section className="relative flex flex-col-reverse w-full px-6 py-8 bg-gray-900 lg:pt-0 lg:flex-col lg:pb-0">
         <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
           <svg
             className="absolute left-0 hidden h-full text-gray-900 transform -translate-x-1/2 lg:block"
@@ -17,7 +17,7 @@ const Hero: NextPage = () => {
           </svg>
           <Image
             className="w-full h-48 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-48 lg:h-full "
-            src="/images/hero-image.jpg"
+            src="/images/hero-auto.jpg"
             width={500}
             height={700}
             alt=""
@@ -26,21 +26,20 @@ const Hero: NextPage = () => {
         <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
           <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
             <h1 className="mb-5 font-sans text-4xl font-bold tracking-wide text-white">
-              Welcome to Mighty Washers Power Washing!
+              Welcome to Signature Shine Auto Detail
             </h1>
             <p className="mb-5 text-xl text-gray-300 pr-4 md:text-2xl">
-              At Mighty Washers, we provide top-notch power washing services
-              that make your property shine like new. Our expert team uses
-              high-pressure water and eco-friendly detergents to remove dirt,
-              grime, mold, and other stubborn stains from your surfaces,
-              including driveways, decks, sidewalks, fences, and more. With our
-              cutting-edge equipment and skilled technicians, we deliver
-              superior results that enhance the curb appeal of your home or
-              business. Trust us to restore the beauty and cleanliness of your
-              property with our professional power washing services.
+              Welcome to Signature Shine Auto Detail, where we take auto care to
+              a whole new level. Using advanced techniques and premium products,
+              we bring out the true beauty of your vehicle, leaving it in
+              showroom condition. From meticulous exterior detailing to
+              comprehensive interior cleaning, our attention to detail is
+              unmatched. Experience the ultimate in auto detailing with
+              Signature Shine Auto Detail, where we deliver unparalleled results
+              with exceptional customer service.
             </p>
             <p className="mb-5 text-xl text-gray-300 sm:pr-10 md:text-xl">
-              Serving Santa Cruz to Aptos.
+              Serving Santa Cruz County
             </p>
             <div className="flex flex-col items-center pt-2 sm:flex-row sm:pt-4">
               <Link

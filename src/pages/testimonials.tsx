@@ -20,14 +20,11 @@ const Testimonials: NextPage = () => {
                   <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
                 </svg>
                 <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-                  Mighty Washers transformed the look of my home with their
-                  incredible power washing service! My siding and driveway had
-                  years of dirt and grime buildup, but their state-of-the-art
-                  equipment and skilled technicians were able to remove it all,
-                  leaving my home looking brand new. I was impressed with their
-                  professionalism, attention to detail, and exceptional results.
-                  I highly recommend Mighty Washers for all your power washing
-                  needs!
+                  I was blown away by the service I received at Signature Shine
+                  Auto Detail. My car looks brand new again! The team was
+                  incredibly professional and thorough in their work. I highly
+                  recommend their services to anyone looking for a top-notch
+                  detailing experience.
                 </p>
               </div>
 
@@ -47,14 +44,11 @@ const Testimonials: NextPage = () => {
                   <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
                 </svg>
                 <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-                  I had an amazing experience with Mighty Washers! Their team
-                  was prompt, courteous, and efficient. They power washed my
-                  deck and it looks like it did when it was first installed. The
-                  difference is truly remarkable! I appreciate their commitment
-                  to using eco-friendly detergents and their attention to
-                  protecting my plants and surroundings during the process. I
-                  will definitely be using Mighty Washers again and recommending
-                  them to all my friends and neighbors.
+                  I had never used a detailing service before, but after my
+                  experience with Signature Shine, I&apos;ll never go back to
+                  doing it myself. The attention to detail was amazing, and they
+                  really took the time to make sure everything was perfect. I
+                  couldn&apos;t be happier with the results.
                 </p>
               </div>
               <h3 className="pl-12 mt-3 text-sm font-medium leading-5 text-gray-800 truncate sm:text-base lg:text-sm lg:text-base">
@@ -74,15 +68,10 @@ const Testimonials: NextPage = () => {
                   <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
                 </svg>
                 <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-                  Mighty Washers is the best power washing company I have ever
-                  worked with! From the moment I contacted them for a quote to
-                  the completion of the job, their level of professionalism and
-                  expertise was outstanding. Their state-of-the-art equipment
-                  and skilled technicians were able to remove years of grime
-                  from my brick patio and restore it to its original beauty. I
-                  was impressed with their attention to detail, exceptional
-                  results, and competitive pricing. I highly recommend Mighty
-                  Washers for anyone in need of top-notch power washing service!
+                  If you&apos;re looking for a professional and friendly
+                  detailing service, look no further than Signature Shine Auto
+                  Detail. They really care about their customers and it shows in
+                  the quality of their work. My car has never looked better.
                 </p>
               </div>
 
@@ -103,15 +92,10 @@ const Testimonials: NextPage = () => {
                   <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
                 </svg>
                 <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-                  I cannot say enough positive things about Mighty Washers!
-                  Their team went above and beyond to ensure that my commercial
-                  property was cleaned to perfection. They were able to remove
-                  stubborn stains from my parking lot and building exterior that
-                  other companies couldn&apos;t. Their commitment to using
-                  eco-friendly detergents and their attention to safety and
-                  professionalism was impressive. I am thrilled with the results
-                  and will continue to use Mighty Washers for all my commercial
-                  power washing needs!
+                  The team at Signature Shine is truly exceptional. They went
+                  above and beyond to make sure my car was spotless and shining
+                  like new. I appreciate their dedication to providing a
+                  top-notch service and will definitely be returning.
                 </p>
               </div>
 
@@ -132,16 +116,12 @@ const Testimonials: NextPage = () => {
                   <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z"></path>
                 </svg>
                 <p className="mt-2 text-sm text-gray-600 sm:text-base lg:text-sm xl:text-base">
-                  Mighty Washers exceeded my expectations with their exceptional
-                  service and outstanding results. They power washed my entire
-                  house, including the roof, siding, and deck, and the
-                  transformation was amazing! Their team was knowledgeable,
-                  courteous, and meticulous in their work. They took great care
-                  to protect my plants and surroundings, and their
-                  state-of-the-art equipment and eco-friendly detergents were
-                  able to remove even the toughest stains. I am thrilled with
-                  the quality of their work and highly recommend Mighty Washers
-                  for all your power washing needs!
+                  I was hesitant to spend money on detailing my car, but after
+                  seeing the incredible job that Signature Shine did, I know it
+                  was worth every penny. The team was friendly, knowledgeable,
+                  and professional, and they made sure that every detail was
+                  perfect. I will definitely be recommending them to all my
+                  friends and family.
                 </p>
               </div>
 

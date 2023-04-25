@@ -8,53 +8,48 @@ const about: NextPage = () => {
       </h1>
       <div className="w-10/12 mx-auto">
         <div className="lg:pl-12 mb-8 md:float-right md:m-4">
-          <Image
+          {/* <Image
             src="/images/about-us.jpg"
             alt="About Us"
             width={350}
             height={300}
             className="w-[460px] h-96 object-cover"
-          />
+          /> */}
         </div>
-        <h1 className="text-2xl font-bold text-blue-950 text-center my-6">
-          Welcome to Mighty Washers
-        </h1>
-        <p className="text-xl mb-4 w-full mr-12">
-          Welcome to Mighty Washers, your state-of-the-art power washing
-          company. We are a team of dedicated professionals who are passionate
-          about providing exceptional power washing services to our valued
-          customers. With years of experience in the industry, we have
-          established ourselves as leaders in the power washing business,
-          delivering superior results with our cutting-edge equipment and
-          eco-friendly detergents.
+
+        <p className="text-2xl mb-4 w-full mr-12">
+          At our Signature Shine company, we pride ourselves on providing a
+          service that is different and better than our competitors. Here are
+          three reasons why:
         </p>
         <p className="text-xl mb-4 w-full mr-12">
-          At Mighty Washers, we take pride in our commitment to excellence. Our
-          team of skilled technicians is fully trained and equipped to handle
-          any power washing job, no matter how challenging. We use
-          state-of-the-art technology and techniques to ensure that your
-          surfaces are thoroughly cleaned without causing any damage. Our goal
-          is to enhance the beauty and cleanliness of your property, leaving it
-          looking like new.
+          <span className="font-semibold">Attention to Detail:</span> We believe
+          that the little things matter, and that&apos;s why we pay attention to
+          every detail when it comes to your car. Our team of experienced
+          technicians takes the time to understand your needs and goes the extra
+          mile to ensure that every inch of your car is sparkling clean. From
+          the dashboard to the wheels, we leave no stone unturned.
         </p>
         <p className="text-xl mb-4 w-full mr-12">
-          We believe in delivering the highest quality of service to our
-          customers. We prioritize customer satisfaction above all else, and we
-          go above and beyond to exceed our customer&apos; expectations. Our
-          friendly and professional team is always available to answer any
-          questions you may have and provide expert advice on how to best
-          maintain your property. We are committed to building long-lasting
-          relationships with our customers based on trust, reliability, and
-          exceptional service.
+          <span className="font-semibold">High-Quality Products:</span> We use
+          only the highest-quality products and equipment to ensure that your
+          car receives the care and attention it deserves. Our products are
+          eco-friendly and safe for you, your car, and the environment. We never
+          cut corners when it comes to quality and believe that it&apos;s what
+          sets us apart from the competition.
         </p>
         <p className="text-xl mb-4 w-full mr-12">
-          Choose Mighty Washing for all your power washing needs and experience
-          the difference of state-of-the-art technology, exceptional service,
-          and outstanding results.
+          <span className="font-semibold">Customer Service:</span> At our Auto
+          Detailing company, we believe that customer satisfaction is the key to
+          our success. That&apos;s why we go above and beyond to make sure that
+          every customer is happy with our services. We are always here to
+          answer your questions and address any concerns you may have. We
+          believe in building long-term relationships with our customers, and we
+          do that by providing exceptional customer service every step of the
+          way.
         </p>
-        <h4 className="permanent-marker text-xl text-blue-950 text-center mt-12">
-          Contact us today to schedule your power washing service and let us
-          bring new life to your property!
+        <h4 className="permanent-marker text-2xl text-blue-950 text-center mt-12">
+          Contact us today to experience the difference for yourself.
         </h4>
       </div>
     </div>
